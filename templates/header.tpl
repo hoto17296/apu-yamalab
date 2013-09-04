@@ -15,7 +15,7 @@
 <body>
   <div id="container">
     <header>
-      <h1><a href="."><span>山村研究室<span></a></h1>
+      <h1><a href="."><span>山村研究室</span></a></h1>
     </header>
     <hr/>
     <div id="content" class="clearfix">
