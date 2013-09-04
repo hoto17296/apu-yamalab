@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+* { margin:0; padding:0; }
+
+.clearfix:after { content:"."; display:block; height:0; clear:both; visibility:hidden; }
+.clearfix { zoom:1; }
+.clearfix > * { float:left; }
+
+.hidden { display:none; }
+.small { font-size:small; }
+.right { text-align:right; }
+
+a:link, a:visited { color:#59601f; }
+a:hover, a:active { color:#f15a24; }
+
+hr {
+	background-image: url(../img/hr.gif);
+	height: 3px;
+	border: 0;
+}
+
+html, body { height:100%; }
+
+body {
+	text-align: center;
+	color: #333;
+	background-color: #fef4e9;
+	line-height: 2em;
+	font-family: sans-serif;
+}
+
+#container {
+	width: 800px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+header {
+	margin: 20px 0;
+}
+
+header h1 a {
+	display: block;
+	width: 400px;
+	height: 80px;
+	background-image: url(../img/header.gif);
+}
+
+header h1 a span { display:none; }
+
+#content { margin: 30px 0; }
+#content > nav { width: 200px; margin-right: 20px; }
+#content > nav dl dt {  }
+#content > nav dl dt a { display:block; width:200px }
+#content > nav dl dt a span { display:none; }
+#content > nav dl dt a:link, nav dl dt a:visited { background-position:top; }
+#content > nav dl dt a:hover, nav dl dt a:active { background-position:bottom; }
+
+#content > nav dl dd { margin: 0 0 20px 20px; }
+#content > nav dl dd a { display:block; text-decoration:none; }
+#content > nav dl dd a:link, #content > nav dl dd a:visited { color:#333; }
+#content > nav dl dd a:hover, #content > nav dl dd a:active { color:#f15a24; }
+
+#content > nav #research a { height:40px; background-image:url(../img/side_research.gif); }
+#content > nav #introduction a { height:40px; background-image:url(../img/side_introduction.gif); }
+#content > nav #lecture a { height:60px; background-image:url(../img/side_lecture.gif); }
+
+#main { width: 580px; }
+
+#main h2 + *, #main h3 + * { margin-left: 20px; }
+#main h2 {
+	border-left: 10px #59601f solid;
+	padding-left: 0.5em;
+	margin: 0.5em 0;
+}
+#main h3 {
+	border-bottom: 1px #59601f dashed;
+	padding-left: 0.5em;
+	margin: 0.5em 0 0.3em;
+}
+
+#main p { text-indent:0.7em; }
+
+#main dt {
+	display: block;
+	width: 160px;
+	clear: left;
+	font-weight: bold;
+}
+
+#main dd {
+	display: block;
+	width: 380px;
+}
+
+#detail {
+	font-size: smaller;
+	font-weight: normal;
+	margin-left: 0.5em;
+}
+
+#seminar + div li {
+	font-size: smaller;
+	line-height: 1.3em;
+	margin-top: 0.5em;
+	margin-left: 2em;
+}
+
+#achivement + div li {
+	font-size: smaller;
+	line-height: 1.3em;
+	margin-top: 0.5em;
+	margin-left: 1em;
+}
+
+footer {
+	padding: 2em;
+}
