@@ -19,6 +19,7 @@
 {/foreach}
   </dl>
 {/foreach}
+  <p>Comming Soon!!</p>
 </div>
 
 <h2 id="seminar">輪講</h2>
