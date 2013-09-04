@@ -6,6 +6,7 @@
 
   <title>愛知県立大学 情報科学部 山村研究室</title>
   
+  <link rel="icon" href="assets/favicon.ico" sizes="16x16" type="image/vnd.microsoft.icon">
   <link rel="stylesheet" type="text/css" href="assets/css/home.css" />
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script src="assets/js/jquery.yurayura.js"></script>

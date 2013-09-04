@@ -6,6 +6,7 @@
 
   <title>{$title} - 山村研究室</title>
   
+  <link rel="icon" href="assets/favicon.ico" sizes="16x16" type="image/vnd.microsoft.icon">
   <link rel="stylesheet" type="text/css" href="assets/css/default.css" />
   <script type="text/javascript">{literal}
     var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-32376917-1']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })();
