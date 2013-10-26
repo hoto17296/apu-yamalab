@@ -18,11 +18,11 @@
 #header_5 { animation-duration: 1400ms; -webkit-animation-duration: 1400ms; }
 
 @keyframes yurayura {
-	from { top: 0px;  }
-	to   { top: 10px; }
+  from { top: 0px;  }
+  to   { top: 10px; }
 }
 
 @-webkit-keyframes yurayura {
-	from { top: 0px;  }
-	to   { top: 10px; }
+  from { top: 0px;  }
+  to   { top: 10px; }
 }
