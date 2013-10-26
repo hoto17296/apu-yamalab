@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+#headers div {
+  animation-name: yurayura;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  -webkit-animation-name: yurayura;
+  -webkit-animation-timing-function: ease-in;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate-reverse;
+}
+
+#header_1 { animation-duration: 1000ms; -webkit-animation-duration: 1000ms; }
+#header_2 { animation-duration: 1200ms; -webkit-animation-duration: 1200ms; }
+#header_3 { animation-duration: 1300ms; -webkit-animation-duration: 1300ms; }
+#header_4 { animation-duration: 1100ms; -webkit-animation-duration: 1100ms; }
+#header_5 { animation-duration: 1400ms; -webkit-animation-duration: 1400ms; }
+
+@keyframes yurayura {
+	from { top: 0px;  }
+	to   { top: 10px; }
+}
+
+@-webkit-keyframes yurayura {
+	from { top: 0px;  }
+	to   { top: 10px; }
+}
