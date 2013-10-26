@@ -4,12 +4,12 @@
 <div>
   <h3>
     山村 毅 准教授
-    <a href="/lab/yamamura/pages/../~yama" id="detail">[詳細]</a>  </h3>
+    <a href="./~yama" id="detail">[詳細]</a>  </h3>
   <dl class="clearfix">
     <dt>学位</dt>
     <dd>博士(工学)</dd>
     <dt>専門分野</dt>
-    <dd><a href="/lab/yamamura/research#nlp">自然言語処理</a></dd>
+    <dd><a href="./research#nlp">自然言語処理</a></dd>
   </dl>
 {foreach from=$member key=key item=item}
   <h3>{$key}</h3>
