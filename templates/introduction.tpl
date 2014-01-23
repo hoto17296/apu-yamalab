@@ -4,7 +4,7 @@
 <div>
   <h3>
     山村 毅 准教授
-    <a href="./~yama" id="detail">[詳細]</a>  </h3>
+    <a href="./yama" id="detail">[詳細]</a>  </h3>
   <dl class="clearfix">
     <dt>学位</dt>
     <dd>博士(工学)</dd>
