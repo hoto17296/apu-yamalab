@@ -4,7 +4,7 @@ $smarty = new Smarty();
 
 $smarty->assign('member', array(
   'M2' => array(
-    '後藤 真由子' => 'バルス！！',
+    '後藤 真由子' => '頼りないトップ',
   ),
   'B4' => array(
     '伊藤 徹' => 'pop\'n 神。',
